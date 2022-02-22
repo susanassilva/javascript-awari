@@ -1,5 +1,6 @@
-var num=parseFloat(prompt("Digite um número"));
-var operador = prompt("Digite o operador: Ex: +, -, x, /");
+let num=parseFloat(prompt("Digite um número"));
+let operador = prompt("Digite o operador: Ex: +, -, x, /");
+let total;
 switch(operador){
   case '+':
     for (i=0;i<=10; i++){
